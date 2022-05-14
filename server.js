@@ -6,7 +6,7 @@ const express = require('express');
 const app = express();
 const router = express.Router();
 const cors = require("cors");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 7899;
 
 app.use(express.static(path.join(__dirname, '/')));
 app.use(cors());
