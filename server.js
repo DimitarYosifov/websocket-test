@@ -46,4 +46,4 @@ wss.on('connection', (ws) => {
     });
 });
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', '0.0.0.0', (+process.env.PORT + 1) || 8080);
